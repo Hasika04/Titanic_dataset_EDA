@@ -3,7 +3,6 @@
 
 This project explores the **Titanic dataset** from Kaggle using **Python, Pandas, and Seaborn/Matplotlib** to uncover patterns in passenger survival. The goal is to perform **data cleaning**, **feature engineering**, and **visual analysis** to derive meaningful insights that could be useful in predictive modeling.
 
----
 
 ## Files in the Repository
 
@@ -37,11 +36,11 @@ Created new informative features to enhance analysis:
 - **IsAlone** = 1 if `FamilySize == 1`, else 0
 - **AgeBand** = Binned age into `Child`, `Teen`, `YoungAdult`, `Adult`, `Senior`
 - **FareBand** = Fare quartiles (`Low`, `Mid`, `High`, `VeryHigh`)
-- 
+  
 ### 4️) Data Encoding
 - Used `pd.get_dummies()` to one-hot encode `Sex`, `Embarked`, etc.
 - Ensured all boolean columns were converted to integers.
-- 
+  
 ### 5) Univariate Analysis
 - Plotted distributions of individual features: `Sex`, `Age`, `Pclass`, `Embarked`, `Fare`, `Survived`
 

@@ -18,7 +18,7 @@ This project explores the **Titanic dataset** from Kaggle using **Python, Pandas
 - Seaborn
 - Matplotlib
 - 
-## Project Workflow (A to Z)
+## Project Workflow
 
 ### 1️) Load and Understand the Data
 - Loaded the dataset into a Pandas DataFrame.
@@ -60,7 +60,6 @@ Created new informative features to enhance analysis:
 - **Passengers with family** (not alone) were more likely to survive.
 
 #### Other Findings:
-- `Title` gave insight into age/gender and affected survival.
 - Passengers from **Cherbourg (`Embarked = C`)** had slightly higher survival rates.
 - Fare and age bands showed clear survival trends.
 
